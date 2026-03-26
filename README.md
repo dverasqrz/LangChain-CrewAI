@@ -17,16 +17,16 @@ A aplicação principal é construída com **Streamlit**, funcionando como um hu
 
 Cada domínio representa um caso de uso real de IA aplicada:
 
-app.py # Página principal (hub de projetos)
-pages/ # Interfaces de cada projeto (Streamlit)
-educacao/ # Lógica e serviços do domínio Educação
-financas/ # Lógica e serviços do domínio Finanças
-marketing/ # Lógica e serviços do domínio Marketing
-medicina/ # Lógica e serviços do domínio Medicina
-rh/ # Lógica e serviços do domínio RH
-suporte-atendimento/ # Lógica e serviços de suporte com RAG
-turismo/ # Lógica e serviços de turismo (multiagentes)
-varejo-ecommerce/ # Lógica e serviços de varejo
+- app.py # Página principal (hub de projetos)
+- pages/ # Interfaces de cada projeto (Streamlit)
+- educacao/ # Lógica e serviços do domínio Educação
+- financas/ # Lógica e serviços do domínio Finanças
+- marketing/ # Lógica e serviços do domínio Marketing
+- medicina/ # Lógica e serviços do domínio Medicina
+- rh/ # Lógica e serviços do domínio RH
+- suporte-atendimento/ # Lógica e serviços de suporte com RAG
+- turismo/ # Lógica e serviços de turismo (multiagentes)
+- varejo-ecommerce/ # Lógica e serviços de varejo
 
 
 ---
