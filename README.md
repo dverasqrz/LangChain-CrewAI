@@ -11,7 +11,7 @@ A proposta é demonstrar, de forma aplicada, como construir soluções com IA qu
 
 ---
 
-## 🧠 Estrutura do Projeto
+## 🧠 Estrutura do Projeto (Em desenvolvimento...)
 
 A aplicação principal é construída com **Streamlit**, funcionando como um hub central onde o usuário pode acessar diferentes projetos.
 
