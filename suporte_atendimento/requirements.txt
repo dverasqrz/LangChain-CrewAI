@@ -1,0 +1,39 @@
+# Dependências específicas do projeto de Suporte e Atendimento (RAG)
+# Este projeto usa RAG com FAISS para atendimento ao cliente
+
+# LangChain e integrações
+langchain==1.2.13
+langchain-core==1.2.22
+langchain-community==0.4.1
+langchain-openai==1.1.12
+
+# Vector Store e busca semântica
+faiss-cpu==1.13.2
+
+# Processamento de documentos
+pypdf==5.3.0
+docx2txt==0.8
+python-docx==1.1.2
+
+# LLM Providers
+openai==2.30.0
+groq==0.37.1
+
+# Embeddings
+sentence-transformers==5.3.0
+
+# Utilitários
+tiktoken==0.12.0
+tenacity==9.1.4
+
+# Configuração e validação
+pydantic-settings==2.13.1
+
+# Logging e monitoramento
+langsmith==0.7.22
+
+# NOTA: Para instalar as dependências deste projeto:
+# pip install -r suporte_atendimento/requirements.txt
+
+# Para rodar apenas este projeto:
+# streamlit run pages/6_suporte_atendimento.py

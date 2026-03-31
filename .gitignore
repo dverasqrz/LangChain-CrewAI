@@ -125,3 +125,14 @@ node_modules/
 
 # Model artifacts
 #models/
+
+# =========================================================
+# Dependencies management
+# =========================================================
+# Arquivos temporários de dependências gerados automaticamente
+requirements_clean.txt
+requirements_*.txt
+!requirements.txt
+!marketing/requirements.txt
+!suporte_atendimento/requirements.txt
+!*/requirements.txt
