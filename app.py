@@ -1,5 +1,26 @@
 from __future__ import annotations
 
+import logging
+import warnings
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+)
+
+try:
+    import transformers
+    from transformers.utils import logging as transformers_logging
+    transformers_logging.set_verbosity_error()
+except Exception:
+    pass
+
+warnings.filterwarnings(
+    "ignore",
+    message="Accessing `__path__` from `.*`",
+    category=Warning,
+)
+
 import streamlit as st
 
 st.set_page_config(

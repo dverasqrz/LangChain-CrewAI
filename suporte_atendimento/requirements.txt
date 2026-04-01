@@ -1,14 +1,18 @@
-# Dependências específicas do projeto de Suporte e Atendimento (RAG)
-# Este projeto usa RAG com FAISS para atendimento ao cliente
+# Dependências específicas do projeto de Suporte e Atendimento (RAG com Pinecone)
+# Este projeto usa RAG com Pinecone para atendimento ao cliente
 
 # LangChain e integrações
 langchain==1.2.13
 langchain-core==1.2.22
 langchain-community==0.4.1
 langchain-openai==1.1.12
+langchain-pinecone==0.2.13
 
 # Vector Store e busca semântica
-faiss-cpu==1.13.2
+pinecone>=7.0.0,<8.0.0
+
+# Ollama para embeddings locais
+ollama>=0.6.0
 
 # Processamento de documentos
 pypdf==5.3.0
@@ -21,6 +25,10 @@ groq==0.37.1
 
 # Embeddings
 sentence-transformers==5.3.0
+
+# PyTorch dependencies (required for sentence-transformers)
+torch>=2.0.0
+torchvision>=0.15.0
 
 # Utilitários
 tiktoken==0.12.0
