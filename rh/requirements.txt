@@ -1,8 +1,12 @@
-# Dependências específicas do projeto de Marketing
-# Gera conteúdo de marketing usando LangChain com Groq e OpenAI
+# Dependências específicas do projeto de RH
+# Análise de currículos com LLM para alinhamento de vaga
 
 streamlit>=1.55.0
 python-dotenv>=1.2.2
+
+# Processamento de documentos
+pypdf>=6.9.2
+python-docx>=1.2.0
 
 # LangChain
 langchain-core>=1.2.26
@@ -14,6 +18,5 @@ openai>=2.30.0
 groq>=0.0.15
 
 # Utilitários
-tiktoken>=0.12.0
 tenacity>=9.1.4
 langsmith>=0.7.25
